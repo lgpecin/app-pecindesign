@@ -14,7 +14,119 @@ export type Database = {
   }
   public: {
     Tables: {
-      [_ in never]: never
+      folder_items: {
+        Row: {
+          content: string | null
+          created_at: string
+          folder_id: string
+          id: string
+          image_url: string | null
+          item_type: string
+          metadata: Json | null
+          sort_order: number
+          title: string | null
+          updated_at: string
+        }
+        Insert: {
+          content?: string | null
+          created_at?: string
+          folder_id: string
+          id?: string
+          image_url?: string | null
+          item_type?: string
+          metadata?: Json | null
+          sort_order?: number
+          title?: string | null
+          updated_at?: string
+        }
+        Update: {
+          content?: string | null
+          created_at?: string
+          folder_id?: string
+          id?: string
+          image_url?: string | null
+          item_type?: string
+          metadata?: Json | null
+          sort_order?: number
+          title?: string | null
+          updated_at?: string
+        }
+        Relationships: [
+          {
+            foreignKeyName: "folder_items_folder_id_fkey"
+            columns: ["folder_id"]
+            isOneToOne: false
+            referencedRelation: "folders"
+            referencedColumns: ["id"]
+          },
+        ]
+      }
+      folders: {
+        Row: {
+          created_at: string
+          description: string | null
+          id: string
+          label: string
+          sort_order: number
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          id?: string
+          label: string
+          sort_order?: number
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          id?: string
+          label?: string
+          sort_order?: number
+          updated_at?: string
+        }
+        Relationships: []
+      }
+      site_settings: {
+        Row: {
+          created_at: string
+          description: string | null
+          footer_text: string | null
+          header_left: string | null
+          header_right: string | null
+          id: string
+          logo_url: string | null
+          presentation_url: string | null
+          title: string
+          updated_at: string
+        }
+        Insert: {
+          created_at?: string
+          description?: string | null
+          footer_text?: string | null
+          header_left?: string | null
+          header_right?: string | null
+          id?: string
+          logo_url?: string | null
+          presentation_url?: string | null
+          title?: string
+          updated_at?: string
+        }
+        Update: {
+          created_at?: string
+          description?: string | null
+          footer_text?: string | null
+          header_left?: string | null
+          header_right?: string | null
+          id?: string
+          logo_url?: string | null
+          presentation_url?: string | null
+          title?: string
+          updated_at?: string
+        }
+        Relationships: []
+      }
     }
     Views: {
       [_ in never]: never
