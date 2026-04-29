@@ -1,0 +1,56 @@
+{
+  "title": "Tipografia",
+  "description": "Fontes e hierarquia tipográfica da marca.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Fonte Principal"
+    },
+    {
+      "type": "text",
+      "title": "Nome da fonte",
+      "content": "Informe aqui o nome da fonte principal, seu estilo e onde pode ser obtida (ex: Google Fonts, Adobe Fonts, etc.)."
+    },
+    {
+      "type": "image",
+      "title": "Specimen — fonte primária",
+      "file": "fonte-primaria.png"
+    },
+    {
+      "type": "heading",
+      "title": "Fonte Secundária"
+    },
+    {
+      "type": "text",
+      "title": "Nome da fonte",
+      "content": "Informe aqui o nome da fonte secundária, usada geralmente em textos de corpo e descrições."
+    },
+    {
+      "type": "image",
+      "title": "Specimen — fonte secundária",
+      "file": "fonte-secundaria.png"
+    },
+    {
+      "type": "heading",
+      "title": "Hierarquia e Tamanhos"
+    },
+    {
+      "type": "image",
+      "title": "Escala tipográfica",
+      "file": "hierarquia.png"
+    },
+    {
+      "type": "text",
+      "title": "Regras de uso",
+      "content": "Descreva aqui como a tipografia deve ser aplicada: títulos, subtítulos, texto corrido, legendas, etc."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "button",
+      "label": "Baixar Fontes (.zip)",
+      "file": "fontes.zip"
+    }
+  ]
+}

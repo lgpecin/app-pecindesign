@@ -16,35 +16,78 @@ const FolderCard = ({ label, description, onClick }: FolderCardProps) => {
       onHoverStart={() => setIsHovered(true)}
       onHoverEnd={() => setIsHovered(false)}
       className="flex flex-col items-center gap-3 p-6 rounded-xl transition-colors hover:bg-secondary/50 cursor-pointer group"
-      whileHover={{ y: -4 }}
+      whileHover={{ y: -6 }}
       whileTap={{ scale: 0.97 }}
     >
-      {/* Folder Icon */}
-      <div className="relative w-20 h-16">
-        {/* Folder back */}
-        <motion.div
-          className="absolute bottom-0 left-0 right-0 h-12 rounded-lg bg-primary"
-          style={{ borderTopLeftRadius: 4, borderTopRightRadius: 4 }}
-        />
-        {/* Folder tab */}
-        <motion.div
-          className="absolute top-2 left-0 w-8 h-4 rounded-t-md bg-primary"
-          style={{ opacity: 0.85 }}
-        />
-        {/* Folder front/lid */}
-        <motion.div
-          className="absolute bottom-0 left-0 right-0 h-12 rounded-lg origin-bottom"
-          style={{ 
-            backgroundColor: "hsl(45, 95%, 60%)",
-            borderTopLeftRadius: 4, 
-            borderTopRightRadius: 4,
+      <div
+        style={{
+          width: 80,
+          height: 64,
+          position: "relative",
+          perspective: "200px",
+          perspectiveOrigin: "50% 100%",
+        }}
+      >
+        {/* FUNDO: um único div que preenche TUDO — nunca tem gap */}
+        <div
+          style={{
+            position: "absolute",
+            inset: 0,
+            backgroundColor: "hsl(45, 90%, 44%)",
+            borderRadius: 8,
+            overflow: "hidden",
+            zIndex: 1,
           }}
-          animate={{
-            rotateX: isHovered ? -25 : 0,
-            y: isHovered ? -2 : 0,
+        >
+          <motion.div
+            style={{
+              position: "absolute",
+              inset: 0,
+              background:
+                "radial-gradient(ellipse at 50% 10%, rgba(255,255,255,0.35) 0%, transparent 65%)",
+            }}
+            initial={{ opacity: 0 }}
+            animate={{ opacity: isHovered ? 1 : 0 }}
+            transition={{ duration: 0.3 }}
+          />
+          <motion.div
+            style={{
+              position: "absolute",
+              bottom: 10,
+              left: 12,
+              right: 12,
+              display: "flex",
+              flexDirection: "column",
+              gap: 4,
+            }}
+            initial={{ opacity: 0, y: 4 }}
+            animate={{ opacity: isHovered ? 1 : 0, y: isHovered ? 0 : 4 }}
+            transition={{ duration: 0.25, delay: 0.08 }}
+          >
+            <div style={{ height: 4, borderRadius: 2, backgroundColor: "rgba(255,255,255,0.25)" }} />
+            <div style={{ height: 4, borderRadius: 2, width: "65%", backgroundColor: "rgba(255,255,255,0.18)" }} />
+          </motion.div>
+        </div>
+
+        {/* FRENTE: um único SVG (aba + corpo = 1 path), rotaciona inteiro */}
+        <motion.svg
+          width="80"
+          height="64"
+          viewBox="0 0 80 64"
+          style={{
+            position: "absolute",
+            inset: 0,
+            transformOrigin: "center bottom",
+            zIndex: 2,
           }}
-          transition={{ type: "spring", stiffness: 300, damping: 20 }}
-        />
+          animate={{ rotateX: isHovered ? -52 : 0 }}
+          transition={{ type: "spring", stiffness: 260, damping: 22 }}
+        >
+          <path
+            d="M6,0 L30,0 Q38,0 40,10 L74,10 Q80,10 80,16 L80,58 Q80,64 74,64 L6,64 Q0,64 0,58 L0,6 Q0,0 6,0 Z"
+            fill="hsl(45, 95%, 60%)"
+          />
+        </motion.svg>
       </div>
 
       <div className="text-center">

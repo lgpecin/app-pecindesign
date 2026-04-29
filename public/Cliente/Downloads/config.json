@@ -1,0 +1,66 @@
+{
+  "title": "Downloads",
+  "description": "Todos os arquivos do projeto para download.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Pacote Completo"
+    },
+    {
+      "type": "text",
+      "title": "Sobre os arquivos",
+      "content": "Aqui você encontra todos os arquivos da identidade visual organizados por tipo. Os arquivos estão nos formatos vetoriais (.ai, .eps, .svg) e também em formatos de uso (.png, .pdf)."
+    },
+    {
+      "type": "button",
+      "label": "Baixar Pacote Completo (.zip)",
+      "file": "pacote-completo.zip"
+    },
+    {
+      "type": "heading",
+      "title": "Arquivos por Categoria"
+    },
+    {
+      "type": "button",
+      "label": "Logos e Variações (.zip)",
+      "file": "logos.zip"
+    },
+    {
+      "type": "button",
+      "label": "Fontes Tipográficas (.zip)",
+      "file": "fontes.zip"
+    },
+    {
+      "type": "button",
+      "label": "Ícones (.zip)",
+      "file": "icones.zip"
+    },
+    {
+      "type": "button",
+      "label": "Templates de Redes Sociais (.zip)",
+      "file": "redes-sociais.zip"
+    },
+    {
+      "type": "button",
+      "label": "Papelaria (.zip)",
+      "file": "papelaria.zip"
+    },
+    {
+      "type": "button",
+      "label": "Mockups (.zip)",
+      "file": "mockups.zip"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "heading",
+      "title": "Manual da Marca"
+    },
+    {
+      "type": "button",
+      "label": "Baixar Manual da Marca (.pdf)",
+      "file": "manual-da-marca.pdf"
+    }
+  ]
+}

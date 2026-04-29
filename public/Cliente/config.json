@@ -1,0 +1,21 @@
+{
+  "backgroundColor": "#0f1117",
+  "titleColor": "#f0f0f0",
+  "textColor": "#a0a0b0",
+  "logo": "",
+  "welcomeText": "Bem-vindo(a) ao diretório visual da marca. Aqui você encontra todos os elementos da identidade visual organizados e prontos para uso.",
+  "headerLeft": "pecindesign.com.br",
+  "headerRight": "Entrega de Projeto",
+  "footerText": "Pecin Design · Entrega de Projeto",
+  "presentationFile": "",
+  "visibleFolders": [
+    "Logotipo",
+    "Paleta de Cores",
+    "Tipografia",
+    "Iconografia",
+    "Redes Sociais",
+    "Papelaria",
+    "Mockups",
+    "Downloads"
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "title": "Mockups",
+  "description": "Visualizações da marca aplicada em diferentes contextos.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Aplicações Digitais"
+    },
+    {
+      "type": "image",
+      "title": "Mockup — Site / App",
+      "file": "mockup-digital.png"
+    },
+    {
+      "type": "image",
+      "title": "Mockup — Redes Sociais",
+      "file": "mockup-redes.png"
+    },
+    {
+      "type": "heading",
+      "title": "Aplicações Físicas"
+    },
+    {
+      "type": "image",
+      "title": "Mockup — Camiseta",
+      "file": "mockup-camiseta.png"
+    },
+    {
+      "type": "image",
+      "title": "Mockup — Caneca",
+      "file": "mockup-caneca.png"
+    },
+    {
+      "type": "image",
+      "title": "Mockup — Fachada / Sinalização",
+      "file": "mockup-fachada.png"
+    },
+    {
+      "type": "heading",
+      "title": "Ambiente"
+    },
+    {
+      "type": "image",
+      "title": "Mockup — Ambiente de trabalho",
+      "file": "mockup-ambiente.png"
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "button",
+      "label": "Baixar Mockups (.zip)",
+      "file": "mockups.zip"
+    }
+  ]
+}

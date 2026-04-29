@@ -1,0 +1,46 @@
+{
+  "title": "Paleta de Cores",
+  "description": "Sistema de cores da identidade visual.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Cores Primárias"
+    },
+    {
+      "type": "color_palette",
+      "title": "Paleta principal",
+      "colors": [
+        { "hex": "#1A1A2E", "name": "Azul Noturno" },
+        { "hex": "#E94560", "name": "Rosa Vibrante" },
+        { "hex": "#FFFFFF", "name": "Branco" }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "Cores Secundárias"
+    },
+    {
+      "type": "color_palette",
+      "title": "Paleta de apoio",
+      "colors": [
+        { "hex": "#0F3460", "name": "Azul Profundo" },
+        { "hex": "#533483", "name": "Roxo" },
+        { "hex": "#F5F5F5", "name": "Cinza Claro" }
+      ]
+    },
+    {
+      "type": "heading",
+      "title": "Aplicação das Cores"
+    },
+    {
+      "type": "text",
+      "title": "Diretrizes de uso",
+      "content": "Descreva aqui como as cores devem ser aplicadas: qual é a cor principal de fundo, qual é usada em textos, qual em destaques, etc."
+    },
+    {
+      "type": "image",
+      "title": "Guia de aplicação de cores",
+      "file": "aplicacao-cores.png"
+    }
+  ]
+}

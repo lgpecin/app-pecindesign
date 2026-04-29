@@ -1,0 +1,56 @@
+{
+  "title": "Redes Sociais",
+  "description": "Templates e diretrizes para redes sociais.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Instagram"
+    },
+    {
+      "type": "image",
+      "title": "Template — Post quadrado",
+      "file": "instagram-post.png"
+    },
+    {
+      "type": "image",
+      "title": "Template — Stories",
+      "file": "instagram-stories.png"
+    },
+    {
+      "type": "heading",
+      "title": "LinkedIn"
+    },
+    {
+      "type": "image",
+      "title": "Capa de perfil",
+      "file": "linkedin-capa.png"
+    },
+    {
+      "type": "image",
+      "title": "Template — Post",
+      "file": "linkedin-post.png"
+    },
+    {
+      "type": "heading",
+      "title": "Diretrizes Gerais"
+    },
+    {
+      "type": "text",
+      "title": "Tom de voz",
+      "content": "Descreva aqui como a marca deve se comunicar nas redes sociais: formal ou informal, humorístico ou sério, técnico ou acessível."
+    },
+    {
+      "type": "text",
+      "title": "Hashtags e bio",
+      "content": "Liste aqui as principais hashtags da marca e o texto padrão de bio para cada rede social."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "button",
+      "label": "Baixar Templates (.zip)",
+      "file": "redes-sociais.zip"
+    }
+  ]
+}

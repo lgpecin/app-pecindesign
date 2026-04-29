@@ -1,0 +1,61 @@
+{
+  "title": "Logotipo",
+  "description": "Versões e variações do logotipo da marca.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Versão Principal"
+    },
+    {
+      "type": "text",
+      "title": "Sobre o logotipo",
+      "content": "Descreva aqui a concepção e significado do logotipo da marca."
+    },
+    {
+      "type": "image",
+      "title": "Logo principal — fundo escuro",
+      "file": "logo-dark.png"
+    },
+    {
+      "type": "image",
+      "title": "Logo principal — fundo claro",
+      "file": "logo-light.png"
+    },
+    {
+      "type": "heading",
+      "title": "Variações"
+    },
+    {
+      "type": "image",
+      "title": "Versão símbolo / ícone",
+      "file": "logo-icon.png"
+    },
+    {
+      "type": "image",
+      "title": "Versão horizontal",
+      "file": "logo-horizontal.png"
+    },
+    {
+      "type": "heading",
+      "title": "Área de Proteção e Usos"
+    },
+    {
+      "type": "text",
+      "title": "Área de proteção",
+      "content": "Mantenha sempre o espaço mínimo equivalente à altura da letra 'x' do logotipo em todos os lados."
+    },
+    {
+      "type": "text",
+      "title": "Usos incorretos",
+      "content": "Não distorça, altere as cores, rotacione ou adicione efeitos ao logotipo. Utilize sempre os arquivos originais fornecidos."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "button",
+      "label": "Baixar Pack de Logos (.zip)",
+      "file": "logos.zip"
+    }
+  ]
+}

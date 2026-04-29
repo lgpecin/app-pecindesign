@@ -1,0 +1,51 @@
+{
+  "title": "Iconografia",
+  "description": "Sistema de ícones da identidade visual.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Estilo dos Ícones"
+    },
+    {
+      "type": "text",
+      "title": "Linha e estilo",
+      "content": "Descreva o estilo dos ícones adotado pela marca: outline, filled, rounded, etc. Explique a lógica de uso."
+    },
+    {
+      "type": "image",
+      "title": "Visão geral do set de ícones",
+      "file": "icones-overview.png"
+    },
+    {
+      "type": "heading",
+      "title": "Ícones Principais"
+    },
+    {
+      "type": "image",
+      "title": "Ícones de navegação",
+      "file": "icones-navegacao.png"
+    },
+    {
+      "type": "image",
+      "title": "Ícones de ação",
+      "file": "icones-acao.png"
+    },
+    {
+      "type": "heading",
+      "title": "Diretrizes de Uso"
+    },
+    {
+      "type": "text",
+      "title": "Tamanhos recomendados",
+      "content": "Descreva os tamanhos mínimos e recomendados para uso dos ícones em diferentes contextos (mobile, web, impressão)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "button",
+      "label": "Baixar Pack de Ícones (.zip)",
+      "file": "icones.zip"
+    }
+  ]
+}

@@ -1,0 +1,60 @@
+{
+  "title": "Papelaria",
+  "description": "Aplicações da marca em materiais impressos e digitais.",
+  "items": [
+    {
+      "type": "heading",
+      "title": "Cartão de Visita"
+    },
+    {
+      "type": "image",
+      "title": "Frente",
+      "file": "cartao-frente.png"
+    },
+    {
+      "type": "image",
+      "title": "Verso",
+      "file": "cartao-verso.png"
+    },
+    {
+      "type": "heading",
+      "title": "Papel Timbrado"
+    },
+    {
+      "type": "image",
+      "title": "Modelo de papel timbrado",
+      "file": "papel-timbrado.png"
+    },
+    {
+      "type": "heading",
+      "title": "Envelope"
+    },
+    {
+      "type": "image",
+      "title": "Modelo de envelope",
+      "file": "envelope.png"
+    },
+    {
+      "type": "heading",
+      "title": "Assinatura de E-mail"
+    },
+    {
+      "type": "image",
+      "title": "Assinatura de e-mail",
+      "file": "assinatura-email.png"
+    },
+    {
+      "type": "text",
+      "title": "Como instalar a assinatura",
+      "content": "Descreva aqui o passo a passo para instalar a assinatura de e-mail nos principais clientes de e-mail (Gmail, Outlook, Apple Mail)."
+    },
+    {
+      "type": "divider"
+    },
+    {
+      "type": "button",
+      "label": "Baixar Arquivos de Papelaria (.zip)",
+      "file": "papelaria.zip"
+    }
+  ]
+}
